@@ -1,0 +1,12 @@
+﻿  game.cpp
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\game.cpp(173,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\game.cpp(174,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  renderwindow.cpp
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\renderwindow.cpp(71,10): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\renderwindow.cpp(72,10): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\renderwindow.cpp(88,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\snakegame\renderwindow.cpp(89,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  snake.cpp
+  Generating Code...
+  snakegame.vcxproj -> C:\Users\doson\OneDrive\Desktop\Bài tập\lập trinh nâng cao\Bài tập lớn\snakegame\x64\Debug\snakegame.exe
