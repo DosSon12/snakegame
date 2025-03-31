@@ -87,24 +87,22 @@ void Game::handleControl(){
         }
     }
    
-    if (keys[SDL_SCANCODE_SPACE]) 
-        if (canSwap) {
-            snake->swapHeadTail();
-            canSwap = false; 
-    }
-    else {
-        canSwap = true; 
-    }
-    if (keys[SDL_SCANCODE_M])
-        if (canSwap1) {
-           if (Mix_Playing(-1)) 
-            if (Mix_Paused(-1)) {Mix_Resume(-1);}
-             else Mix_Pause(-1); 
-            else{ Mix_VolumeChunk(soundtrack, MIX_MAX_VOLUME / 8); Mix_PlayChannel(-1, soundtrack, 0);}
-           canSwap = false;
-        }
-            else canSwap1 = true;
-	
+   if (!keys[SDL_SCANCODE_SPACE])canSwap = true;
+ if (keys[SDL_SCANCODE_SPACE]) 
+     if (canSwap) {
+         snake->swapHeadTail();
+         canSwap = false; 
+ }
+
+	if (!keys[SDL_SCANCODE_M]) canSwap1 = true;
+ if (keys[SDL_SCANCODE_M])
+     if (canSwap1) {
+        if (Mix_Playing(-1)) 
+         if (Mix_Paused(-1)) {Mix_Resume(-1);}
+          else Mix_Pause(-1); 
+         else{ Mix_VolumeChunk(soundtrack, MIX_MAX_VOLUME / 8); Mix_PlayChannel(-1, soundtrack, 0);}
+        canSwap = false;
+     }
 }   
 
 // xử lý các sự kiện 
